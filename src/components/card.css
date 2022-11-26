@@ -1,0 +1,21 @@
+.card {
+  max-width: 221px;
+  height: 300px;
+  overflow: hidden;
+  display: grid;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border: 1px solid var(--gray200);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+p.product-title {
+  overflow-x: hidden;
+  white-space: nowrap;
+  font-size: 11px;
+}

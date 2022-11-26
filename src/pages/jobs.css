@@ -1,0 +1,102 @@
+/* SEARCH AND POST JOB SECTION */
+.search-post {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  align-items: flex-end;
+  height: fit-content;
+  margin: 2rem 0;
+}
+
+.jobform {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid var(--gray200);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.jobform input {
+  width: 80%;
+  outline: none;
+}
+
+.jobpost {
+  display: grid;
+  place-items: center;
+}
+
+.jobpost a {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-jobs {
+  display: block;
+}
+.saved-jobs {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.job-section {
+  margin-inline: 5rem;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.job-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color {
+  color: red;
+}
+
+.job-desc {
+  font-size: 11px;
+}
+
+.rating {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  align-items: center;
+}
+
+.stars {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.verify {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.stars-rating {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

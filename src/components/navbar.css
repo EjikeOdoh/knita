@@ -1,0 +1,84 @@
+nav {
+  height: 5rem;
+  background-color: var(--blueish);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0 6rem;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.menu ul {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+
+.searchbar {
+  width: 20rem;
+  background-color: #fff;
+  border: 1px solid var(--gray200);
+}
+.searchbar form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.searchbar form input {
+  width: 90%;
+}
+
+form > * {
+  background-color: #fff;
+}
+
+form input {
+  padding: 5px;
+  outline: none;
+}
+
+select {
+  width: 20px;
+  outline: none;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+}
+
+.active-nav {
+  position: relative;
+  font-weight: bold;
+}
+
+.active-nav::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--gray200);
+  position: absolute;
+  left: calc(50% - 4px);
+}
